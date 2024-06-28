@@ -1,7 +1,7 @@
 
-# applied-llm
+# Applied LLMs
 
-Discover the latest resources on Applied LLMs. 
+Discover the latest resources on LLMs in production. 
 
 This collection includes the most relevant educational materials such as: 
 
