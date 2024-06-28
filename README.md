@@ -1,20 +1,21 @@
 
 # Applied LLMs
 
-Discover the latest resources on LLMs in production. 
-
-This collection includes the most relevant educational materials such as: 
-
-- Foundational Research Papers
-- Free LLM courses
-- Popular Github repos
-- Big tech articles featuring **successful LLM implementations in production**. 🚀
-
-
 [![Substack](https://img.shields.io/badge/Substack-Subscribe-orange?style=flat&logo=substack&logoColor=white)](https://merinova.substack.com/about)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Follow-blue.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/meri-bozulanova/)
 ![HitCount](http://hits.dwyl.com/meri-nova/applied-llm.svg)
 
+Discover the latest resources on LLMs in production. 
+
+This collection includes the most relevant educational materials such as: 
+
+
+- Free LLM courses
+- Seminal Research Papers
+- Popular Github repos
+- Big tech articles featuring **successful LLM implementations in production**. 🚀
+
+---
 
 Learn how organizations implement and leverage LLMs:
 
