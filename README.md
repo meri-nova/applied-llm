@@ -53,7 +53,6 @@ Feel free to contribute!
 
 
 - [Imbue: Training a 70B Model from Scratch](https://imbue.com/research/70b-intro/)
-- [Meta: How We Scaled Llama 2 to 70B Parameters](https://ai.meta.com/blog/llama-2-technical-details-updates/)
 - [Google: PaLM 2 Technical Report](https://ai.google/static/documents/palm2techreport.pdf)
 - [Anthropic: Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155)
 - [EleutherAI: The Pile: An 800GB Dataset of Diverse Text for Language Modeling](https://arxiv.org/abs/2101.00027)
@@ -64,13 +63,12 @@ Feel free to contribute!
 
 ## Data Quality for LLMs
 
-- [Data Quality for Machine Learning](https://eng.uber.com/data-quality-machine-learning/)
-- [Improving Data Quality for Machine Learning Models](https://engineering.linkedin.com/blog/2021/improving-data-quality-for-machine-learning-models)
-- [The Pile: An 800GB Dataset of Diverse Text for Language Modeling](https://pile.eleuther.ai/)
-- [Data-Centric AI Resource Hub](https://datacentricai.org/)
-- [Addressing Data Quality in Machine Learning](https://cloud.google.com/blog/products/ai-machine-learning/addressing-data-quality-in-machine-learning)
-- [Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)
-- [Curating High-Quality Datasets for Machine Learning](https://snorkel.ai/curating-high-quality-datasets-for-machine-learning/)
+## Data Quality and Contracts for LLM Deployment in Big Tech
+
+- [Nvidia: Scale and Curate High-Quality Datasets for LLMs](https://developer.nvidia.com/blog/scale-and-curate-high-quality-datasets-for-llm-training-with-nemo-curator/)
+- [Data Quality Error Detection with LLMs](https://towardsdatascience.com/automated-detection-of-data-quality-issues-54a3cb283a91)
+- [IBM: How to ensure Data Quality and Reliability](https://www.ibm.com/blog/how-data-engineers-can-ensure-data-quality-value-and-reliability/)
+- [NVIDIA: Curating custom datasets for LLM training](https://developer.nvidia.com/blog/curating-custom-datasets-for-llm-training-with-nvidia-nemo-curator/)
 
 
 ## Data Engineering for LLM
