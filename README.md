@@ -5,47 +5,38 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Follow-blue.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/meri-bozulanova/)
 ![HitCount](http://hits.dwyl.com/meri-nova/applied-llm.svg)
 
-Discover the latest resources on LLMs in production. 
+Discover the latest **LLM implementations in production**. 🚀
 
-This collection includes the most relevant educational materials such as: 
+Learn how big tech companies and startups implement and leverage LLMs in 2024:
 
-
-- Free LLM courses
-- Seminal Research Papers
-- Popular Github repos
-- Big tech articles featuring **successful LLM implementations in production**. 🚀
-
----
-
-Learn how organizations implement and leverage LLMs:
-
-- **How** LLMs are deployed and integrated into systems 🔎
-- **What** techniques and architectures worked ✅ (and sometimes, what didn't ❌)
+- **How** LLMs are deployed and integrated into large-scale applications 🔎
+- **What** techniques worked during each LLM deployment lifecycle ✅ ( Data Quality, Data Engineering, Serving, Monitoring 📈 etc)
+- **What** real-world results were achieved (so you can better assess ROI ⏰💰)
 - **Why** it works and what is the science behind it with research, literature, and references 📂
-- **What** real-world results were achieved (so you can better assess ROI ⏰💰📈)
+
+Feel free to contribute!
 
 
 ## Table of Contents
 
-### Articles and Foundational Research Papers
 
-1. [LLM Fundamentals](#llm-fundamentals)
-2. [Training and Fine-tuning Techniques](#training-and-fine-tuning-techniques)
-3. [Data Quality for LLMs](#data-quality-for-llms)
-4. [Data Engineering for LLM](#data-engineering-for-llm)
-5. [Deployment and Inference](#deployment-and-inference)
-6. [Evaluation and Metrics](#evaluation-and-metrics)
-7. [Prompt Engineering](#prompt-engineering)
-8. [Vector Stores](#vector-stores)
-9. [Tools and Frameworks](#tools-and-frameworks)
-10. [Retrieval Augmented Generation (RAG)](#retrieval-augmented-generation-rag)
-11. [Graph and LLMs](#graph-and-llms)
-12. [Multimodal with LLMs](#multimodal-with-llms)
-13. [Scaling and Optimization](#scaling-and-optimization)
-14. [Ethical Considerations and Limitations](#ethical-considerations-and-limitations)
+1. [Training and Fine-tuning Techniques](#training-and-fine-tuning-techniques)
+2. [Data Quality for LLMs](#data-quality-for-llms)
+3. [Data Engineering for LLM](#data-engineering-for-llm)
+4. [Deployment and Inference](#deployment-and-inference)
+5. [Evaluation and Metrics](#evaluation-and-metrics)
+6. [Prompt Engineering](#prompt-engineering)
+7. [Vector Stores](#vector-stores)
+8. [Tools and Frameworks](#tools-and-frameworks)
+9. [Retrieval Augmented Generation (RAG)](#retrieval-augmented-generation-rag)
+10. [Graph and LLMs](#graph-and-llms)
+11. [Multimodal with LLMs](#multimodal-with-llms)
+12. [Scaling and Optimization](#scaling-and-optimization)
+13. [Ethical Considerations and Limitations](#ethical-considerations-and-limitations)
 
-  # Learn and practice your skills 
+## Additional Resources 
 
+14. [LLM Seminal Papers](#llm-seminal-papers)
 15. [Courses and Tutorials](#courses-and-tutorials)
 16. [GitHub Repositories](#github-repositories)
 17. [LLM Tools for Developers](#llm-tools-for-developers)
@@ -53,33 +44,22 @@ Learn how organizations implement and leverage LLMs:
 19. [Newsletters to follow](#newsletters)
 
 
+
 ---
+# Main content 👇
 
-
-## LLM Fundamentals
-
-- [Attention Is All You Need (Transformer Paper)](https://arxiv.org/abs/1706.03762)
-- [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
-- [GPT-3: Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165)
-- [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971)
-- [Language Models are Few-Shot Learners (GPT-3 Paper)](https://arxiv.org/abs/2005.14165)
-- [A Survey of Large Language Models](https://arxiv.org/abs/2303.18223)
-- [Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond](https://arxiv.org/abs/2304.13712)
-- [Awesome-LLM: A curated list of Large Language Model resources](https://github.com/Hannibal046/Awesome-LLM)
-- [GPT-3: Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165)
-- [WebGPT: Browser-assisted question-answering with human feedback](https://arxiv.org/abs/2112.09332)
-- [InstructGPT: Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155)
 
 ## Training and Fine-tuning Techniques
 
-- [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361)
-- [Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155)
-- [Constitutional AI: Harmlessness from AI Feedback](https://arxiv.org/abs/2212.08073)
-- [Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](https://arxiv.org/abs/1909.08053)
-- [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)
-- [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314)
-- [Parameter-Efficient Transfer Learning for NLP](https://arxiv.org/abs/1902.00751)
-- [Fine-tuning GPT-2 from Human Preferences](https://arxiv.org/abs/1909.08593)
+
+- [Imbue: Training a 70B Model from Scratch](https://imbue.com/research/70b-intro/)
+- [Meta: How We Scaled Llama 2 to 70B Parameters](https://ai.meta.com/blog/llama-2-technical-details-updates/)
+- [Google: PaLM 2 Technical Report](https://ai.google/static/documents/palm2techreport.pdf)
+- [Anthropic: Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155)
+- [EleutherAI: The Pile: An 800GB Dataset of Diverse Text for Language Modeling](https://arxiv.org/abs/2101.00027)
+- [Hugging Face: How we trained BLOOM, the world's largest open multilingual language model](https://huggingface.co/blog/bloom-megatron-deepspeed)
+- [DeepMind: Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556)
+- [NVIDIA Megatron-Turing NLG](https://developer.nvidia.com/blog/using-deepspeed-and-megatron-to-train-megatron-turing-nlg-530b-the-worlds-largest-and-most-powerful-generative-language-model/)
 
 
 ## Data Quality for LLMs
@@ -116,15 +96,15 @@ Learn how organizations implement and leverage LLMs:
 
 ## Evaluation and Metrics
 
+- [OpenAI: Evaluating Large Language Models Trained on Code](https://arxiv.org/abs/2107.03374)
+- [EleutherAI: HELM - Holistic Evaluation of Language Models](https://crfm.stanford.edu/helm/latest/)
+- [Google: Beyond the Imitation Game - Measuring and extrapolating the capabilities of language models](https://arxiv.org/abs/2206.04615)
+- [DeepMind: Measuring Massive Multitask Language Understanding](https://arxiv.org/abs/2009.03300)
+- [Meta: MMLU - Massive Multitask Language Understanding](https://github.com/hendrycks/test)
+- [Anthropic: Constitutional AI: Harmlessness from AI Feedback](https://www.anthropic.com/index/constitutional-ai-harmlessness-from-ai-feedback)
+- [Microsoft: How Far Can Camels Go? Exploring the State of Instruction Tuning on Open Resources](https://arxiv.org/abs/2306.04751)
+- [BigScience: A Framework for Few-Shot Language Model Evaluation](https://arxiv.org/abs/2109.01652)
 - [Best Practices for LLM Evaluation](https://github.com/microsoft/promptbase)
-- [HELM: Holistic Evaluation of Language Models](https://crfm.stanford.edu/helm/latest/)
-- [EleutherAI Language Model Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness)
-- [BIG-bench: Beyond the Imitation Game Benchmark](https://github.com/google/BIG-bench)
-- [Measuring Massive Multitask Language Understanding](https://arxiv.org/abs/2009.03300)
-- [How We Evaluate Large Language Models at Anthropic](https://www.anthropic.com/index/how-we-evaluate-large-language-models)
-- [Evaluating Large Language Models Trained on Code](https://openai.com/research/evaluating-large-language-models-trained-on-code)
-- [TruthfulQA: Measuring How Models Mimic Human Falsehoods](https://arxiv.org/abs/2109.07958)
-
 
 ## Prompt Engineering
 
@@ -198,7 +178,21 @@ Learn how organizations implement and leverage LLMs:
 - [Ethical and social risks of harm from Language Models](https://arxiv.org/abs/2112.04359)
 
 
-## Additional Resources
+## Additional Educational Resources
+
+## LLM Seminal Papers
+
+
+1. [Attention Is All You Need (Transformer Paper)](https://arxiv.org/abs/1706.03762)
+2. [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
+3. [GPT-3: Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165)
+4. [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971)
+5. [A Survey of Large Language Models](https://arxiv.org/abs/2303.18223)
+6. [Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond](https://arxiv.org/abs/2304.13712)
+7. [Awesome-LLM: A curated list of Large Language Model resources](https://github.com/Hannibal046/Awesome-LLM)
+8. [WebGPT: Browser-assisted question-answering with human feedback](https://arxiv.org/abs/2112.09332)
+9. [InstructGPT: Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155)
+
 
 ### Courses and Tutorials
 
