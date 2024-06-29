@@ -10,7 +10,7 @@ Discover the latest **LLM implementations in production**. 🚀
 Learn how big tech companies and startups implement and leverage LLMs in 2024:
 
 - **How** LLMs are deployed and integrated into large-scale applications 🔎
-- **What** techniques worked during each LLM deployment lifecycle ✅ ( Data Quality, Data Engineering, Serving, Monitoring 📈 etc)
+- **What** architectures and techniques worked when implementing LLM in the SWD cycle ✅ (Data Quality, Data Engineering, Serving, Monitoring 📈 etc)
 - **What** real-world results were achieved (so you can better assess ROI ⏰💰)
 - **Why** it works and what is the science behind it with research, literature, and references 📂
 
@@ -23,7 +23,7 @@ Feel free to contribute!
 1. [Training and Fine-tuning Techniques](#training-and-fine-tuning-techniques)
 2. [Data Quality for LLMs](#data-quality-for-llms)
 3. [Data Engineering for LLM](#data-engineering-for-llm)
-4. [Deployment and Inference](#deployment-and-inference)
+4. [Deployment](#deployment)
 5. [Evaluation and Metrics](#evaluation-and-metrics)
 6. [Prompt Engineering](#prompt-engineering)
 7. [Vector Stores](#vector-stores)
@@ -70,19 +70,14 @@ Feel free to contribute!
 - [IBM: How to ensure Data Quality and Reliability](https://www.ibm.com/blog/how-data-engineers-can-ensure-data-quality-value-and-reliability/)
 - [NVIDIA: Curating custom datasets for LLM training](https://developer.nvidia.com/blog/curating-custom-datasets-for-llm-training-with-nvidia-nemo-curator/)
 
-
 ## Data Engineering for LLM
 
-- [Building Scalable and Efficient Data Pipelines for Machine Learning](https://netflixtechblog.com/building-scalable-and-efficient-data-pipelines-for-machine-learning-f294fe800cb3)
-- [Data Engineering for AI: Designing Efficient Pipelines for Language Models](https://medium.com/airbnb-engineering/data-engineering-for-ai-designing-efficient-pipelines-for-language-models-78e0283bd9f3)
-- [Scaling Machine Learning at Uber with Michelangelo](https://eng.uber.com/scaling-machine-learning/)
-- [Data Engineering for NLP at Scale](https://engineering.atspotify.com/2022/06/data-engineering-for-nlp-at-scale/)
-- [Building Data Pipelines for Large Language Models](https://www.databricks.com/blog/2023/03/20/building-data-pipelines-large-language-models.html)
-- [Data Engineering Best Practices for Training Large Language Models](https://cloud.google.com/blog/products/ai-machine-learning/data-engineering-best-practices-for-training-large-language-models)
-- [Efficient Data Processing for Language Model Pre-training](https://www.microsoft.com/en-us/research/publication/efficient-data-processing-for-language-model-pre-training/)
+- [Harnessing the power of LLMs in Data Engineering](https://www.wednesday.is/writing-articles/the-future-of-llms-examining-the-impact-from-a-data-engineers-perspective)
+- [Data Engineer 2.0](https://medium.com/adevinta-tech-blog/data-engineer-2-0-part-i-large-language-models-7b745c4683e4)
+- [Data Collection Magic](https://huggingface.co/blog/JessyTsu1/data-collect) 
+- [Data Engineers, here is how LLMs can make your life easier](https://builtin.com/articles/data-engineers-llms-easier)
 
-
-## Deployment and Inference
+## Deployment 
 
 - [Efficient Large Language Model serving with FlexFlow](https://github.com/flexflow/FlexFlow)
 - [vLLM: Easy, Fast, and Cheap LLM Serving with PagedAttention](https://github.com/vllm-project/vllm)
