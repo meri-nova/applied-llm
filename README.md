@@ -22,9 +22,9 @@ Feel free to contribute!
 
 1. [Training and Fine-tuning Techniques](#training-and-fine-tuning-techniques)
 2. [Data Quality for LLMs](#data-quality-for-llms)
-3. [Data Engineering for LLM](#data-engineering-for-llm)
-4. [Deployment](#deployment)
-5. [Evaluation and Metrics](#evaluation-and-metrics)
+3. [Data Engineering with LLM](#data-engineering-with-llm)
+4. [LLM Deployment](#llm-deployment)
+5. [Evaluation and Metrics for LLMs](#evaluation-and-metrics-for-llms)
 6. [Prompt Engineering](#prompt-engineering)
 7. [Vector Stores](#vector-stores)
 8. [Tools and Frameworks](#tools-and-frameworks)
@@ -63,41 +63,36 @@ Feel free to contribute!
 
 ## Data Quality for LLMs
 
-## Data Quality and Contracts for LLM Deployment in Big Tech
-
 - [Nvidia: Scale and Curate High-Quality Datasets for LLMs](https://developer.nvidia.com/blog/scale-and-curate-high-quality-datasets-for-llm-training-with-nemo-curator/)
 - [Data Quality Error Detection with LLMs](https://towardsdatascience.com/automated-detection-of-data-quality-issues-54a3cb283a91)
 - [IBM: How to ensure Data Quality and Reliability](https://www.ibm.com/blog/how-data-engineers-can-ensure-data-quality-value-and-reliability/)
 - [NVIDIA: Curating custom datasets for LLM training](https://developer.nvidia.com/blog/curating-custom-datasets-for-llm-training-with-nvidia-nemo-curator/)
 
-## Data Engineering for LLM
+## Data Engineering with LLM
 
 - [Harnessing the power of LLMs in Data Engineering](https://www.wednesday.is/writing-articles/the-future-of-llms-examining-the-impact-from-a-data-engineers-perspective)
 - [Data Engineer 2.0](https://medium.com/adevinta-tech-blog/data-engineer-2-0-part-i-large-language-models-7b745c4683e4)
 - [Data Collection Magic](https://huggingface.co/blog/JessyTsu1/data-collect) 
 - [Data Engineers, here is how LLMs can make your life easier](https://builtin.com/articles/data-engineers-llms-easier)
 
-## Deployment 
+## LLM Deployment 
 
-- [Efficient Large Language Model serving with FlexFlow](https://github.com/flexflow/FlexFlow)
-- [vLLM: Easy, Fast, and Cheap LLM Serving with PagedAttention](https://github.com/vllm-project/vllm)
+- [Efficient Large Language Model serving with BentoML](https://docs.bentoml.org/en/v1.1.11/quickstarts/deploy-a-large-language-model-with-openllm-and-bentoml.html)
+- [Databricks: Model Serving ](https://www.databricks.com/resources/demos/videos/deploying-llms-databricks-model-serving)
 - [TensorRT-LLM: Toolkit to optimize inference of LLMs](https://github.com/NVIDIA/TensorRT-LLM)
 - [Datyabricks: Deploying Large Language Models in Production](https://www.databricks.com/blog/2023/04/13/deploying-large-language-models-in-production.html)
 - [Patterns for Building LLM-based Systems & Products](https://eugeneyan.com/writing/llm-patterns/)
 - [LLM Engineering Guide](https://github.com/stas00/ml-engineering/tree/master/llms)
 
 
-## Evaluation and Metrics
+## Evaluation and Metrics for LLMs
 
 - [OpenAI: Evaluating Large Language Models Trained on Code](https://arxiv.org/abs/2107.03374)
 - [EleutherAI: HELM - Holistic Evaluation of Language Models](https://crfm.stanford.edu/helm/latest/)
 - [Google: Beyond the Imitation Game - Measuring and extrapolating the capabilities of language models](https://arxiv.org/abs/2206.04615)
 - [DeepMind: Measuring Massive Multitask Language Understanding](https://arxiv.org/abs/2009.03300)
-- [Meta: MMLU - Massive Multitask Language Understanding](https://github.com/hendrycks/test)
-- [Anthropic: Constitutional AI: Harmlessness from AI Feedback](https://www.anthropic.com/index/constitutional-ai-harmlessness-from-ai-feedback)
-- [Microsoft: How Far Can Camels Go? Exploring the State of Instruction Tuning on Open Resources](https://arxiv.org/abs/2306.04751)
-- [BigScience: A Framework for Few-Shot Language Model Evaluation](https://arxiv.org/abs/2109.01652)
 - [Best Practices for LLM Evaluation](https://github.com/microsoft/promptbase)
+- [LLM Evaluation Framework](https://github.com/confident-ai/deepeval)
 
 ## Prompt Engineering
 
@@ -225,7 +220,7 @@ Feel free to contribute!
 
   ### Newsletters
   
-1. [Merinova](https://merinova.substack.com/)
+1. [Meri Nova's](https://merinova.substack.com/)
 2. [Ahead of AI](https://magazine.sebastianraschka.com/)
 3. [Breaking into Data](https://breakintodata.substack.com/)
 4. [Underfitted](https://underfitted.svpino.com/)
